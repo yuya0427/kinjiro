@@ -1,0 +1,90 @@
+body {
+  font-family: sans-serif;
+  background-color: #1900ff;
+}
+
+input {
+  padding: 6px 16px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+button {
+  border-radius: 16px;
+  border: none;
+  padding: 4px 16px;
+}
+button:hover {
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+}
+
+li {
+  margin-right: 8px;
+}
+
+img {
+  margin-right: 20px; /* 写真とテキストの間隔を調整するためのマージン */
+}
+
+.me {
+  background-color: #89ffff;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+.me-text {
+  display: flex; /*横並び*/
+  padding: 4px 16px;
+}
+
+.input-area {
+  background-color: #89ffff;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.incomplete-area {
+  background-color: #eb7dd8;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.complete-area {
+  background-color: #4bffc9;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.skill {
+  background-color: #4bffc9;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  color: white;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+}
